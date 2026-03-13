@@ -1,7 +1,7 @@
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class PROBLEM1 {
+public class PROBLEM6 {
     private final Map<String, TokenBucket> clients = new ConcurrentHashMap<>();
 
     static class TokenBucket {

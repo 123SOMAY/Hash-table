@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PROBLEM5 {
+public class PROBLEM10 {
     private LinkedHashMap<String, String> l1 = new LinkedHashMap<>(100, 0.75f, true) {
         protected boolean removeEldestEntry(Map.Entry eldest) { return size() > 10000; }
     };

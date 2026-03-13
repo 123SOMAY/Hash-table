@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PROBLEM4 {
+public class PROBLEM9 {
     static class Transaction {
         int id; double amount; String merchant; long time;
     }

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PROBLEM2 {
+public class PROBLEM7 {
     class TrieNode {
         Map<Character, TrieNode> children = new HashMap<>();
         PriorityQueue<String> topQueries = new PriorityQueue<>((a, b) ->

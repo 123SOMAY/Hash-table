@@ -1,10 +1,10 @@
-public class PROBLEM3 {
+public class PROBLEM8 {
     private String[] spots;
     private long[] entryTimes;
     private int size;
     private static final String DELETED = "DELETED";
 
-    public PROBLEM3(int capacity) {
+    public PROBLEM8(int capacity) {
         this.size = capacity;
         this.spots = new String[capacity];
         this.entryTimes = new long[capacity];
